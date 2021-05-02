@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Dog;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -14,9 +15,6 @@ class DogsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('dogs')->insert(['name' => 'Joe']);
-        DB::table('dogs')->insert(['name' => 'Jock']);
-        DB::table('dogs')->insert(['name' => 'Jackie']);
-        DB::table('dogs')->insert(['name' => 'Jane']);
+        Dog::factory()->count(10)->create();
     }
 }
