@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Database\Seeders\DogSeeder;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(DogsTableSeeder::class);
+        $this->call(DogSeeder::class);
     }
 }
