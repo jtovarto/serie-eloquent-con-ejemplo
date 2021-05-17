@@ -22,7 +22,9 @@ class DogFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->firstName(),
+            'age'  => rand(1,15),
+            'gender' => $this->faker->randomElement(['female', 'male'])
         ];
     }
 }
