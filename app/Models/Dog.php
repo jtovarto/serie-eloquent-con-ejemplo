@@ -13,14 +13,14 @@ class Dog extends Model
     use SoftDeletes;
 
     //Global scope -- Leccion 05
-    protected static function boot()
+    /*  protected static function boot()
     {
         parent::boot();
 
         static::addGlobalScope('age', function (Builder $builder) {
             $builder->where('age', '>', 8);
         });
-    }
+    } */
 
 
     //Local scope Leccion 04
@@ -39,5 +39,16 @@ class Dog extends Model
     function dogsForSpecialTreatment($gender)
     {
         return $this->AgeGreaterThan(6)->gender($gender);
+    }
+
+    //leccion 06 - Accesors
+    function getNameAttribute($value)
+    {
+        return strtoupper($value);
+    }
+
+    function getIdWithNameAttribute($value)
+    {
+        return "{$this->id} : {$this->name}";
     }
 }

@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Database\Seeders\DogSeeder;
 use Illuminate\Database\Seeder;
+use Database\Seeders\ProductSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,6 +15,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(DogSeeder::class);
+        $this->call([
+            DogSeeder::class,
+            ProductSeeder::class
+        ]);
     }
 }
