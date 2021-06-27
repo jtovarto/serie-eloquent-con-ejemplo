@@ -15,7 +15,7 @@ Una serie de artículos basados e inspirados en el curso [EloquentbyExample](htt
 - [Lección 4: Model Scopes](https://dev.to/johanso/aprende-eloquent-con-ejemplos-leccion-4-model-scopes-e7)
 - [Lección 5: Global scopes, Soft-deletes y Traits](https://dev.to/johanso/aprende-eloquent-con-ejemplos-leccion-5-global-scopes-soft-deletes-y-traits-3c72)
 - [Lección 6: Accesors, Mutators y Casts](https://dev.to/johanso/aprende-eloquent-con-ejemplos-leccion-6-accesors-mutators-y-casts-3ma9)
-
+- [Lección 7: Create y Update](https://dev.to/johantovar/aprende-eloquent-con-ejemplos-leccion-7-create-y-update-160n)
 ## Medium.com
 
 - [Lección 1: Aprende eloquent con ejemplos](https://jtovartorres.medium.com/aprende-eloquent-con-ejemplos-b8d2a34e75a4).
@@ -24,6 +24,7 @@ Una serie de artículos basados e inspirados en el curso [EloquentbyExample](htt
 - [Lección 4: Model Scopes](https://jtovartorres.medium.com/aprende-eloquent-con-ejemplos-lecci%C3%B3n-4-model-scopes-b01ff6dc6ad7)
 - [Lección 5: Global scopes, Soft-deletes y Traits](https://jtovartorres.medium.com/aprende-eloquent-con-ejemplos-lecci%C3%B3n-5-global-scopes-soft-deletes-y-traits-d1d726309288)
 - [Lección 6: Accesors, Mutators y Casts]()
+- [Lección 7: Create y Update]()
 
 ## Hashnode.dev
 
@@ -32,4 +33,5 @@ Una serie de artículos basados e inspirados en el curso [EloquentbyExample](htt
 - [Lección 3: Modelos, Tinker y Base de datos heredadas](https://johantovar.hashnode.dev/aprende-eloquent-con-ejemplos-leccion-3-modelos-tinker-y-base-de-datos-heredadas)
 - [Lección 4: Model Scopes](https://johantovar.hashnode.dev/aprende-eloquent-con-ejemplos-leccion-4-model-scopes)
 - [Lección 5: Global scopes, Soft-deletes y Traits](https://johantovar.hashnode.dev/aprende-eloquent-con-ejemplos-leccion-5-global-scopes-soft-deletes-y-traits)
-- [Lección 6: Accesors, Mutators y Casts]()
+- [Lección 6: Accesors, Mutators y Casts](https://johantovar.hashnode.dev/aprende-eloquent-con-ejemplos-leccion-6-accesors-mutators-y-casts)
+- [Lección 7: Create y Update](https://johantovar.hashnode.dev/aprende-eloquent-con-ejemplos-leccion-7-create-y-update)

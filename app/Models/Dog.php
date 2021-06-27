@@ -12,6 +12,9 @@ class Dog extends Model
     use HasFactory;
     use SoftDeletes;
 
+    //Propiedad fillable leccion 07
+    protected $fillable = ['name', 'age'];
+
     //Global scope -- Leccion 05
     /*  protected static function boot()
     {
